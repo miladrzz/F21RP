@@ -1,0 +1,19 @@
+Spam is an internet terminology that refers to either unsolicited commercial email (UCE) or unsolicited bulk email (UBE)(REFRENCE). Spams have always been annoying for users and decreased users efficiency. These email are usually sent for phishing purposes through
+fraud agencies. Having a system that can detect spam emails and distinguish them from a normal email is a major security objective.
+
+Receiving mails about a product promotion or attractive prizes followed by a link is counted as bad business strategies or fraud. Spamming not only draws people to harmful activities, but it can spread fake information about products (as many product owners hire
+spammers to increase their product rating and attract customers). 
+
+These unwanted emails consume a lot of memory and also waste users time.
+
+So there is a vital need of a mechanism to detect these emails and distinguish them from normal emails. 
+
+This mechanism of spam detection cannot be based on static algorithms, as spams are in different forms and spammers can change the spam pattern over time. This is why this mechanism must be based on a Machine-Learning (ML) algorithm that can be trained and keep
+learning. This project is aiming for designing and implementing this ML algorithm by getting some help from existing statistical patterns.
+
+
+//future works.
+Spam messages have been irritating users for a long time. By foundation of spam detectors, spammers evolved their spam mails to pass the detection gateway. To avoid the conventional text-based spam filtering system They include unnecessary special characters or white
+spaces between words to prevent spam filtering from detecting spam keywords. (REFRENSE)
+Furthermore, image spams without any text are rapidly increasing in mobile phones these days, thus making spam detection even harder. Due to high cost of image processing in a mobilephone as well as insufficient phone spam image data,detecting spam imagesin a mobile
+phone becomes a difficult issue that we struggle with.
