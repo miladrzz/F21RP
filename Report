@@ -11,7 +11,16 @@ So there is a vital need of a mechanism to detect these emails and distinguish t
 This mechanism of spam detection cannot be based on static algorithms, as spams are in different forms and spammers can change the spam pattern over time. This is why this mechanism must be based on a Machine-Learning (ML) algorithm that can be trained and keep
 learning. This project is aiming for designing and implementing this ML algorithm by getting some help from existing statistical patterns.
 
+a recent work in 2020, Dedeturk and Akay (2020) developed a spam filter model which achieved an accuracy of 98.70%.
 
+Dada et al. (2019) stated that recent researchers and main providers of email services, like Gmail or Outlook, employ a combination of different machine and deep learning techniques to build their filters generally involving text classification.
+
+Experimental results have shown that the combination of both image and text features improves the effectiveness of the classification with regard to the case in which only image or text features are used
+
+PROBLEMS:
+1. Poisoning message.
+2. Salting text
+3. Backscatter.
 //future works.
 Spam messages have been irritating users for a long time. By foundation of spam detectors, spammers evolved their spam mails to pass the detection gateway. To avoid the conventional text-based spam filtering system They include unnecessary special characters or white
 spaces between words to prevent spam filtering from detecting spam keywords. (REFRENSE)
