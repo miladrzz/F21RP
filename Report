@@ -17,12 +17,31 @@ Dada et al. (2019) stated that recent researchers and main providers of email se
 
 Experimental results have shown that the combination of both image and text features improves the effectiveness of the classification with regard to the case in which only image or text features are used
 
-PROBLEMS:
-1. Poisoning message.
-2. Salting text
-3. Backscatter.
-//future works.
-Spam messages have been irritating users for a long time. By foundation of spam detectors, spammers evolved their spam mails to pass the detection gateway. To avoid the conventional text-based spam filtering system They include unnecessary special characters or white
-spaces between words to prevent spam filtering from detecting spam keywords. (REFRENSE)
-Furthermore, image spams without any text are rapidly increasing in mobile phones these days, thus making spam detection even harder. Due to high cost of image processing in a mobilephone as well as insufficient phone spam image data,detecting spam imagesin a mobile
-phone becomes a difficult issue that we struggle with.
+//refrences
+https://link.springer.com/article/10.1007/s10462-022-10195-4
+https://ieeexplore.ieee.org/document/10119397
+https://link.springer.com/article/10.1007/s11416-016-0287-x
+https://ieeexplore.ieee.org/document/10262507
+https://ieeexplore.ieee.org/document/10431737 A. Evaluation of Text Messaging Apps
+
+https://link.springer.com/article/10.1007/s44230-022-00001-3 DATA!!!!
+
+https://ieeexplore.ieee.org/document/10374425 !!!!!!!!!!!!!!!!!!!!!!!!!
+
+SUBJECT:
+FAKE REVIEWS!!!!!
+1) YELP DATASETS are mostly for hotels --> other areas are left!
+One significant challenge in the field of fake review detection is the absence of large, standardized, and diverse datasets that accurately represent the complexity of fake review patterns across various domains and platforms. Indeed, most studies widely used
+datasets such as Yelp or OTT datasets, which may not fully encapsulate the spectrum of fake review characteristics found in other contexts. In addition, The choice of dataset has a substantial impact on experimental outcomes and the reported performance of 
+detection models. The specific attributes of the dataset, such as the labeling of genuine and fake reviews, the variability in writing styles, and the intricacies of domain-specific language, can significantly influence the efficacy of machine learning algorithms. Consequently, the reported precision, recall, and other metrics may vary extensively based on the unique attributes of the chosen dataset.
+
+Future work should focus on creating algorithms that can quickly and accurately identify bogus reviews in real-time, allowing platforms to take rapid action against fraudulent content.
+
+
+
+
+
+Most of the literature found throughout our methodology employed supervised methods to detect fake reviews due to their polarity and the high accuracy provided. Therefore, to collect relevant inputs for our classifier, each researcher considers diverse types of 
+features. Mainly, there are three types of features which are being used for fake review detection: review centric, reviewer centric and product centric features. First, review centric features analyze the textual content of users according to methods such as 
+Bag-of-Words, word frequency, n-grams, Skip-grams and length of the text. Second, reviewer centric features, which describe user information, their connections, actions, and timestamp, and may incorporate text counts. Finally, there is product centric features 
+which depend directly on product information. In Table 1 some examples of the features extracted considering the three types of the feature engineering are given.
