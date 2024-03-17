@@ -34,10 +34,12 @@ https://link.springer.com/article/10.1007/s10489-022-03807-7
 
 SUBJECT:
 FAKE REVIEWS!!!!!
+combine training data and develop effective semi-supervised and unsupervised detection methods!!!
 1) YELP DATASETS are mostly for hotels --> other areas are left!
 One significant challenge in the field of fake review detection is the absence of large, standardized, and diverse datasets that accurately represent the complexity of fake review patterns across various domains and platforms. Indeed, most studies widely used
 datasets such as Yelp or OTT datasets, which may not fully encapsulate the spectrum of fake review characteristics found in other contexts. In addition, The choice of dataset has a substantial impact on experimental outcomes and the reported performance of 
-detection models. The specific attributes of the dataset, such as the labeling of genuine and fake reviews, the variability in writing styles, and the intricacies of domain-specific language, can significantly influence the efficacy of machine learning algorithms. Consequently, the reported precision, recall, and other metrics may vary extensively based on the unique attributes of the chosen dataset.
+detection models. The specific attributes of the dataset, such as the labeling of genuine and fake reviews, the variability in writing styles, and the intricacies of domain-specific language, can significantly influence the efficacy of machine learning algorithms.
+Consequently, the reported precision, recall, and other metrics may vary extensively based on the unique attributes of the chosen dataset.
 
 Difficulties in obtaining accurately labeled fake review datasets result in many problems. First, supervised approaches are incompatible with the design of fake review detection models. Therefore, unsupervised machine learning techniques are frequently adopted to spot
 fake reviews and/or reviewers based on some assumptions given in advance [7]. Secondly, due to the lack of ground-truth data, it is hard to evaluate the “real” performance of an unsupervised machine learning model. As a result, it’s challenging to select the appropriate
@@ -50,3 +52,7 @@ Most of the literature found throughout our methodology employed supervised meth
 features. Mainly, there are three types of features which are being used for fake review detection: review centric, reviewer centric and product centric features. First, review centric features analyze the textual content of users according to methods such as 
 Bag-of-Words, word frequency, n-grams, Skip-grams and length of the text. Second, reviewer centric features, which describe user information, their connections, actions, and timestamp, and may incorporate text counts. Finally, there is product centric features 
 which depend directly on product information. In Table 1 some examples of the features extracted considering the three types of the feature engineering are given.
+
+Feature-based methods require a large amount of training data to obtain an effective detection model. How to effectively combine training data and develop effective semi-supervised and unsupervised detection methods for deceptive spam reviews will be one of the future
+directions.
+
