@@ -46,6 +46,7 @@ fake reviews and/or reviewers based on some assumptions given in advance [7]. Se
 models for detecting fake reviews in a given review dataset. Lastly, due to the diversity of review spam strategies, no single detection model can stop all the spam [8]. Therefore, unsupervised models based on different assumptions of spam characteristics must be
 combined to improve the detection performance.
 
+We need to keep training the algorithm in order to keep up with the spammers new approaches. to do so, we need to keep updating the training dataset.
 
 
 Most of the literature found throughout our methodology employed supervised methods to detect fake reviews due to their polarity and the high accuracy provided. Therefore, to collect relevant inputs for our classifier, each researcher considers diverse types of 
