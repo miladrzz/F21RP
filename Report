@@ -60,6 +60,16 @@ future directions.
 
 Related approaches:
 A. Collaborative Filtering
-Collaborative Filtering is one of the most popular techniques used in recommender system. The underline intuition of Collaborative Filter is simple. If user X and user Y like the same product A, then it is likely X and Y will share the same interest on a different item B.
+Collaborative Filtering is one of the most popular techniques used in recommender system. The underline intuition of Collaborative Filter is simple. If user X and user Y like the same product A, then it is likely X and Y will share the same interest on a different
+item
+Collaborative filtering (CF) is one of the most popular techniques used in recommender system. CF is based on mutual intrests, meaning that if user X and Y like product A and user X also likes product B it is likely that user Y will like product B as well. This
+technique helps detection systems to be able to extract some semi-legit data for training from people that are likely to use the product.
 
-Amazon started using CF for its recommendation since 2003 ‘The Netflix Prize’ [2] did a great push on researching of Collaborative Filtering Topic. Many progress and development have been made since base on it. Collaborative Filtering can be categorized into three categories: memory-based, model-based and hybrid. Each of the categories has its own characters, that is designed to tackle different problems of CF. But they also come with their own limitations respectively. We review each one of them in the following part.
+B. Graph based recommender systems:
+Knowledge graphs have been proven to be useful in recommender systems. Having a multi-dimensional vectors for each item, can help us to easily calculate the similarity between two items.
+Network structure for Cold Start problem can cover both collaborative and content information.
+
+
+C. Abnormal Detection Using Information Graph:
+Abnormal detection can help detection systems to acquire a graph that can be treated as a time-evolving dynamic network. Abnormal can be detected using nodes, edges, and sub-graphs.
+As spammers usually go to opposite direction of the crowd, detecting abnormals can be very valuable.
