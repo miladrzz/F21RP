@@ -41,13 +41,13 @@ datasets such as Yelp or OTT datasets, which may not fully encapsulate the spect
 detection models. The specific attributes of the dataset, such as the labeling of genuine and fake reviews, the variability in writing styles, and the intricacies of domain-specific language, can significantly influence the efficacy of machine learning algorithms.
 Consequently, the reported precision, recall, and other metrics may vary extensively based on the unique attributes of the chosen dataset.
 
-Difficulties in obtaining accurately labeled fake review datasets result in many problems. First, supervised approaches are incompatible with the design of fake review detection models. Therefore, unsupervised machine learning techniques are frequently adopted to spot
-fake reviews and/or reviewers based on some assumptions given in advance [7]. Secondly, due to the lack of ground-truth data, it is hard to evaluate the “real” performance of an unsupervised machine learning model. As a result, it’s challenging to select the appropriate
-models for detecting fake reviews in a given review dataset. Lastly, due to the diversity of review spam strategies, no single detection model can stop all the spam [8]. Therefore, unsupervised models based on different assumptions of spam characteristics must be
-combined to improve the detection performance.
+Difficulties in obtaining accurately labeled fake review datasets result in many problems. First, supervised approaches are incompatible with the design of fake review detection models. Therefore, unsupervised machine learning techniques are frequently adopted to 
+spot fake reviews and/or reviewers based on some assumptions given in advance [7]. Secondly, due to the lack of ground-truth data, it is hard to evaluate the “real” performance of an unsupervised machine learning model. As a result, it’s challenging to select
+the appropriate models for detecting fake reviews in a given review dataset. Lastly, due to the diversity of review spam strategies, no single detection model can stop all the spam [8]. Therefore, unsupervised models based on different assumptions of spam 
+characteristics must be combined to improve the detection performance.
 
-We need to keep training the algorithm in order to keep up with the spammers new approaches. to do so, we need to keep updating the training dataset. We need to give a high priority to algorithm mistakes on wrong detections and help it to
-learn about new data shifts.
+We need to keep training the algorithm in order to keep up with the spammers new approaches. to do so, we need to keep updating the training dataset. We need to give a high priority to algorithm mistakes on wrong detections and help it tolearn about new 
+data shifts.
 
 
 Most of the literature found throughout our methodology employed supervised methods to detect fake reviews due to their polarity and the high accuracy provided. Therefore, to collect relevant inputs for our classifier, each researcher considers diverse types of 
@@ -55,5 +55,11 @@ features. Mainly, there are three types of features which are being used for fak
 Bag-of-Words, word frequency, n-grams, Skip-grams and length of the text. Second, reviewer centric features, which describe user information, their connections, actions, and timestamp, and may incorporate text counts. Finally, there is product centric features 
 which depend directly on product information. In Table 1 some examples of the features extracted considering the three types of the feature engineering are given.
 
-Feature-based methods require a large amount of training data to obtain an effective detection model. How to effectively combine training data and develop effective semi-supervised and unsupervised detection methods for deceptive spam reviews will be one of the future
-directions.
+Feature-based methods require a large amount of training data to obtain an effective detection model. How to effectively combine training data and develop effective semi-supervised and unsupervised detection methods for deceptive spam reviews will be one of the
+future directions.
+
+Related approaches:
+A. Collaborative Filtering
+Collaborative Filtering is one of the most popular techniques used in recommender system. The underline intuition of Collaborative Filter is simple. If user X and user Y like the same product A, then it is likely X and Y will share the same interest on a different item B.
+
+Amazon started using CF for its recommendation since 2003 ‘The Netflix Prize’ [2] did a great push on researching of Collaborative Filtering Topic. Many progress and development have been made since base on it. Collaborative Filtering can be categorized into three categories: memory-based, model-based and hybrid. Each of the categories has its own characters, that is designed to tackle different problems of CF. But they also come with their own limitations respectively. We review each one of them in the following part.
